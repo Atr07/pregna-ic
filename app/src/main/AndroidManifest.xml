@@ -17,11 +17,11 @@
             android:screenOrientation="sensorPortrait"
             android:exported="true"
             tools:ignore="LockedOrientationActivity">
-            <intent-filter>
+            <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
         <activity
             android:name=".ui.activity.login.LoginActivity"
@@ -31,7 +31,13 @@
             tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".ui.activity.home.MainActivity"
-            android:exported="false"/>
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.music.MusicFragment">
+    tools:context=".ui.fragments.bp.detail.BpDetailFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="music" />
+        android:text="Hello" />
 
 </FrameLayout>

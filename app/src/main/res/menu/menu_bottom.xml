@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard_menu"
+        android:title=""
+        android:icon="@drawable/ic_dashboard"/>
+
+    <item
+        android:id="@+id/education_menu"
+        android:title=""
+        android:icon="@drawable/ic_education"/>
+
+    <item
+        android:id="@+id/add_menu"
+        android:title=""/>
+
+    <item
+        android:id="@+id/music_menu"
+        android:title=""
+        android:icon="@drawable/ic_music"/>
+
+    <item
+        android:id="@+id/settings_menu"
+        android:title=""
+        android:icon="@drawable/ic_settings"/>
+
+</menu>

@@ -8,4 +8,9 @@
     <dimen name="login_input_txt_ts">@dimen/_14ssp</dimen>
     <dimen name="login_edit_txt_padding">@dimen/_12sdp</dimen>
     <dimen name="login_button_txt_ts">@dimen/_14ssp</dimen>
+
+    <dimen name="home_bottom_appbar_height">@dimen/_44sdp</dimen>
+    <dimen name="home_bottom_icon_size">@dimen/_28sdp</dimen>
+    <dimen name="home_fab_size">@dimen/_36sdp</dimen>
+    <dimen name="home_fab_icon_size">@dimen/_22sdp</dimen>
 </resources>

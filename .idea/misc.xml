@@ -4,9 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Mine/Pregna/app/src/main/res/drawable/edit_text_rounded_corner_white_bg.xml" value="0.15833333333333333" />
+        <entry key="..\:/Mine/Pregna/app/src/main/res/drawable/ic_add.xml" value="0.20277777777777778" />
+        <entry key="..\:/Mine/Pregna/app/src/main/res/drawable/ic_dashboard.xml" value="0.20277777777777778" />
+        <entry key="..\:/Mine/Pregna/app/src/main/res/drawable/ic_music.xml" value="0.20277777777777778" />
         <entry key="..\:/Mine/Pregna/app/src/main/res/layout/activity_login.xml" value="0.2388888888888889" />
         <entry key="..\:/Mine/Pregna/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Mine/Pregna/app/src/main/res/layout/activity_splash.xml" value="0.24947916666666667" />
+        <entry key="..\:/Mine/Pregna/app/src/main/res/layout/bp_list_fragment.xml" value="0.25" />
+        <entry key="..\:/Mine/Pregna/app/src/main/res/layout/dashboard_fragment.xml" value="0.25" />
+        <entry key="..\:/Mine/Pregna/app/src/main/res/layout/education_fragment.xml" value="0.25" />
+        <entry key="..\:/Mine/Pregna/app/src/main/res/layout/music_fragment.xml" value="0.25" />
+        <entry key="..\:/Mine/Pregna/app/src/main/res/layout/settings_fragment.xml" value="0.25" />
+        <entry key="..\:/Mine/Pregna/app/src/main/res/menu/menu_bottom.xml" value="0.25" />
+        <entry key="..\:/Mine/Pregna/app/src/main/res/menu/menu_dashboard.xml" value="0.16018518518518518" />
       </map>
     </option>
   </component>

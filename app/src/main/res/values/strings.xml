@@ -10,4 +10,6 @@
     <string name="enter_valid_email">Enter valid email</string>
     <string name="enter_strong_password">Enter strong password (min length 4)</string>
     <string name="login_success">Login success!</string>
+    <string name="add">Add</string>
+    <string name="dashboard">Dashboard</string>
 </resources>
