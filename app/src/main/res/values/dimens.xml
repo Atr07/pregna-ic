@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_app_name_ts">@dimen/_36ssp</dimen>
+    <dimen name="splash_tag_line_ts">@dimen/_14ssp</dimen>
+
+    <dimen name="login_app_name_ts">@dimen/_28ssp</dimen>
+    <dimen name="login_txt_ts">@dimen/_20ssp</dimen>
+    <dimen name="login_input_txt_ts">@dimen/_14ssp</dimen>
+    <dimen name="login_edit_txt_padding">@dimen/_12sdp</dimen>
+    <dimen name="login_button_txt_ts">@dimen/_14ssp</dimen>
+</resources>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.atr07.pregna">
 
     <application
+        android:name=".MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,14 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pregna">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".ui.activity.splash.SplashActivity"
+            android:theme="@style/AppFullScreen"
+            android:screenOrientation="sensorPortrait"
+            android:exported="true"
+            tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.activity.login.LoginActivity"
+            android:theme="@style/AppFullScreen"
+            android:screenOrientation="sensorPortrait"
+            android:exported="false"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ui.activity.home.MainActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>

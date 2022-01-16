@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Pregna</string>
+    <string name="pregna_for_gestational_hypertension">Pregna for Gestational Hypertension</string>
+    <string name="help">Help?</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="enter_valid_email">Enter valid email</string>
+    <string name="enter_strong_password">Enter strong password (min length 4)</string>
+    <string name="login_success">Login success!</string>
 </resources>

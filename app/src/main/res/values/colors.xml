@@ -7,4 +7,19 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="textGrey">#757575</color>
+
+    <color name="app_colorPrimary">#fce4ec</color>
+    <color name="app_colorPrimaryVariant">#c9b2ba</color>
+
+    <color name="splash_app_name_txt">@color/white</color>
+    <color name="splash_tag_line_txt">@color/white</color>
+
+    <color name="login_app_name_txt">@color/white</color>
+    <color name="login_page_txt">@color/white</color>
+    <color name="login_input_txt">@color/white</color>
+    <color name="login_edit_txt">@color/textGrey</color>
+    <color name="login_btn_txt">@color/white</color>
+    <color name="login_btn_bg_tint">#F26BB0</color>
+    <color name="login_btn_ripple">#CD9C9B9B</color>
 </resources>
