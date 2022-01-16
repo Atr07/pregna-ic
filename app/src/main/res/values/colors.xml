@@ -9,11 +9,18 @@
     <color name="white">#FFFFFFFF</color>
     <color name="textGrey">#757575</color>
     <color name="iconGrey">#9393ac</color>
+    <color name="pink">#F06292</color>
+    <color name="orange">#FFFF7043</color>
+
+
+    <color name="meditationCard">#F64F4F</color>
 
     <color name="app_colorPrimary">#fce4ec</color>
     <!--<color name="app_colorPrimaryVariant">#c9b2ba</color>-->
     <color name="app_colorPrimaryVariant">#6c84f3</color>
     <color name="colorSecondary">#6c84f3</color>
+
+    <color name="main_title_txt">#15154C</color>
 
     <color name="splash_app_name_txt">@color/white</color>
     <color name="splash_tag_line_txt">@color/white</color>

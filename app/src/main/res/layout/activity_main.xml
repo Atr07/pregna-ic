@@ -33,14 +33,15 @@
                     android:id="@+id/home_profile_img"
                     android:layout_width="@dimen/_28sdp"
                     android:layout_height="@dimen/_28sdp"
-                    android:src="@mipmap/ic_launcher"/>
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pro_pic" />
 
                 <TextView
                     android:id="@+id/home_toolbar_title_txt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/app_name"
-                    android:textSize="@dimen/_18ssp"
+                    android:textSize="@dimen/_16ssp"
                     android:textStyle="bold"
                     android:gravity="center"
                     android:layout_gravity="center"
@@ -54,49 +55,50 @@
             android:id="@+id/home_frame_container"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/home_coordinator_layout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/home_appbar">
+            app:layout_constraintTop_toBottomOf="@id/home_appbar"/>
 
-            <androidx.coordinatorlayout.widget.CoordinatorLayout
-                android:id="@+id/home_coordinator_layout"
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/home_coordinator_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:id="@+id/home_bottom_app_bar"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="@dimen/home_bottom_appbar_height"
+                android:layout_gravity="bottom">
 
-                <com.google.android.material.bottomappbar.BottomAppBar
-                    android:id="@+id/home_bottom_app_bar"
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/home_bottom_navigation_view"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/home_bottom_appbar_height"
-                    android:layout_gravity="bottom">
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="16dp"
+                    android:background="@android:color/transparent"
+                    app:itemIconSize="@dimen/home_bottom_icon_size"
+                    app:itemIconTint="@color/selector_tab"
+                    app:labelVisibilityMode="unlabeled"
+                    app:menu="@menu/menu_bottom" />
+            </com.google.android.material.bottomappbar.BottomAppBar>
 
-                    <com.google.android.material.bottomnavigation.BottomNavigationView
-                        android:id="@+id/home_bottom_navigation_view"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginEnd="16dp"
-                        android:background="@android:color/transparent"
-                        app:itemIconSize="@dimen/home_bottom_icon_size"
-                        app:itemIconTint="@color/selector_tab"
-                        app:labelVisibilityMode="unlabeled"
-                        app:menu="@menu/menu_bottom" />
-                </com.google.android.material.bottomappbar.BottomAppBar>
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/fab"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|center"
-                    android:layout_marginBottom="@dimen/_4sdp"
-                    android:contentDescription="@string/add"
-                    android:scaleType="center"
-                    android:src="@drawable/ic_add"
-                    app:fabCustomSize="@dimen/home_fab_size"
-                    app:maxImageSize="@dimen/home_fab_icon_size"
-                    app:tint="@color/white" />
-            </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
-        </FrameLayout>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:contentDescription="@string/add"
+                android:scaleType="center"
+                android:src="@drawable/ic_add"
+                app:fabCustomSize="@dimen/home_fab_size"
+                app:maxImageSize="@dimen/home_fab_icon_size"
+                app:tint="@color/white" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

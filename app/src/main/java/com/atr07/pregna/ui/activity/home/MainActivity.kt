@@ -11,6 +11,8 @@ import com.atr07.pregna.ui.fragments.education.EducationFragment
 import com.atr07.pregna.ui.fragments.music.MusicFragment
 import com.atr07.pregna.ui.fragments.settings.SettingsFragment
 import com.atr07.pregna.utils.hideKeyboard
+import com.atr07.pregna.utils.toast
+import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,6 +34,18 @@ class MainActivity : AppCompatActivity() {
         initBottomNav()
 
         addFragment(R.id.home_frame_container,DashboardFragment())
+
+        binding.homeToolbar.setNavigationOnClickListener {
+            onBackPressed()
+        }
+
+        binding.fab.setOnClickListener {
+            this.toast("add")
+        }
+
+        binding.homeProfileImg.setOnClickListener {
+            this.toast("profile")
+        }
     }
 
     private fun initBottomNav() {
@@ -48,6 +62,7 @@ class MainActivity : AppCompatActivity() {
                 else -> DashboardFragment()
             }
             addFragment(R.id.home_frame_container,frag)
+            Timber.e("click")
             true
         }
     }

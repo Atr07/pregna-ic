@@ -25,6 +25,10 @@ class LoginActivity : AppCompatActivity() {
             clearError()
             validateLoginInput()
         }
+
+        binding.loginHelpTxt.setOnClickListener {
+            this.toast("help")
+        }
     }
 
     private fun clearError() {
